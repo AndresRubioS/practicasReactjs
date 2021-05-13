@@ -1,112 +1,44 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-.App-link {
-  color: #61dafb;
-}
-.grande{
-            
-  
-  top: 100px;
-  left: 200px;
-    
-}
-.arriba{
-   filter: grayscale(100%);
-  
-  top: 100px;
-  left: 1500px;
- 
-}
-.medio{
-  filter: grayscale(100%);
-   
-  top: 300px;
-  left: 1500px;
-  
-  
-}
-.bajo{
-  filter: grayscale(100%);
-    
-  top: 500px;
-  left: 1500px;
-    
-  
-}
-.medio:hover{
-  filter: grayscale(0%);
-} 
-.arriba:hover{
-  filter: grayscale(0%);
-}
-.bajo:hover{
-  filter: grayscale(0%);
-}
-.intro {
-  
- 
- 
-   
-      
-            
-  background: url('./assets/casa.png')fixed top center no-repeat;
-  background-repeat: no-repeat;
-  
+.services {
+  background-image: url('/images/img-2.jpg');
+  background-position: center;
   background-size: cover;
-  padding: 25%;
-  
-
-
-}
-.introTexto{
-  text-align: center;
-  font-size: 75px;
-  background-color: rgba(255, 246, 224, 0.3);
-  padding: 5%;
-  
-  
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-.imagen{
-  width: 100%;
-		height: 50%;
-		text-align: center;
-    
-		
-}
-nav {
-  background: #9B0A0F !important;
-  text-align: center;
-  padding: 5px;
-  text-shadow: none !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-}
-nav a {
-  color: white;
-  text-decoration: none; 
-  font-size: 2rem;
-  padding: 5px 15px;
+.products {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-
-
-
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
